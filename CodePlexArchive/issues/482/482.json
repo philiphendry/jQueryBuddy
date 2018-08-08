@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2010-12-20T12:27:34.32-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When the size of panels have been adjusted they should be saved and reloaded.",
+    "LastUpdatedDate": "2013-05-15T17:14:48.187-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "jQueryBuddy",
+    "ReportedDate": "2010-11-28T14:04:29.11-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Remember window layout",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 482
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

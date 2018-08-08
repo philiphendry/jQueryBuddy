@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{2F5E4874-0452-4870-85F2-18A20C9F6C63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AvalonEdit", "AvalonEdit", "{DAC23C38-BFA8-4941-8464-D5C0999B4A2D}"
+	ProjectSection(SolutionItems) = preProject
+		lib\AvalonEdit\AvalonEdit Documentation.chm = lib\AvalonEdit\AvalonEdit Documentation.chm
+		lib\AvalonEdit\ICSharpCode.AvalonEdit.dll = lib\AvalonEdit\ICSharpCode.AvalonEdit.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A2F6980-99F6-40E8-AB7D-7CACA068CE4E}"
+	ProjectSection(SolutionItems) = preProject
+		jQueryBuddy.vsmdi = jQueryBuddy.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jQueryBuddy", "jQueryBuddy.csproj", "{926485D8-46B8-4133-B93D-8F49BC6FD541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlToXaml", "lib\HtmlToXaml\HtmlToXaml.csproj", "{70FFA787-E6A7-43FE-80E2-B6AED8087577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GZipCompress", "lib\GZipCompress\GZipCompress.csproj", "{5528B019-8566-4301-B3B4-1CF752A346A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jQueryBuddy.Tests", "jQueryBuddy.Tests\jQueryBuddy.Tests.csproj", "{C17E3B37-1ECE-4566-8AA2-9118E9DF697B}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = jQueryBuddy.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{926485D8-46B8-4133-B93D-8F49BC6FD541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926485D8-46B8-4133-B93D-8F49BC6FD541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926485D8-46B8-4133-B93D-8F49BC6FD541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926485D8-46B8-4133-B93D-8F49BC6FD541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70FFA787-E6A7-43FE-80E2-B6AED8087577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FFA787-E6A7-43FE-80E2-B6AED8087577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FFA787-E6A7-43FE-80E2-B6AED8087577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FFA787-E6A7-43FE-80E2-B6AED8087577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5528B019-8566-4301-B3B4-1CF752A346A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5528B019-8566-4301-B3B4-1CF752A346A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5528B019-8566-4301-B3B4-1CF752A346A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5528B019-8566-4301-B3B4-1CF752A346A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17E3B37-1ECE-4566-8AA2-9118E9DF697B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17E3B37-1ECE-4566-8AA2-9118E9DF697B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17E3B37-1ECE-4566-8AA2-9118E9DF697B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17E3B37-1ECE-4566-8AA2-9118E9DF697B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAC23C38-BFA8-4941-8464-D5C0999B4A2D} = {2F5E4874-0452-4870-85F2-18A20C9F6C63}
+	EndGlobalSection
+EndGlobal

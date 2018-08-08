@@ -1,0 +1,155 @@
+[
+  {
+    "Id": "0",
+    "Name": "jQueryBuddy_Beta2",
+    "DevelopmentStatus": "Beta",
+    "Description": "Snippet documents are now displayed in tabs and therefore more than one can be open at any time. The size of the results/help panels are remembered and whether they've been hidden/displayed. If there are unsaved changes the user will be warned when exiting the application and given the option to cancel.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-12-20T13:07:47.207-08:00",
+    "Files": [
+      {
+        "Id": "abe52f39-1970-4d65-bc69-a479efe64147",
+        "FileName": "jQueryBuddy.application",
+        "Url": "./0/abe52f39-1970-4d65-bc69-a479efe64147",
+        "Type": "Application",
+        "UploadDate": "2010-12-20T13:07:47.63-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "jQueryBuddy_Alpha9",
+    "DevelopmentStatus": "Alpha",
+    "Description": "Fixed bug where the save dialog is shown twice. Seeing as snippets can now be saved, I'm going to mark this release as recommended.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-11-28T13:44:40.237-08:00",
+    "Files": [
+      {
+        "Id": "037fec08-cd32-4e8e-be1e-af07c9ee0e12",
+        "FileName": "jQueryBuddy.application",
+        "Url": "./1/037fec08-cd32-4e8e-be1e-af07c9ee0e12",
+        "Type": "Application",
+        "UploadDate": "2010-11-17T13:35:10.12-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "jQueryBuddy_Alpha8",
+    "DevelopmentStatus": "Alpha",
+    "Description": "Added some basic open/save",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-11-17T13:26:20.71-08:00",
+    "Files": [
+      {
+        "Id": "8b55e12f-7ad9-4b69-a430-55d0a56ed718",
+        "FileName": "jQueryBuddy.application",
+        "Url": "./2/8b55e12f-7ad9-4b69-a430-55d0a56ed718",
+        "Type": "Application",
+        "UploadDate": "2010-11-17T13:26:20.883-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "jQuery_Beta1",
+    "DevelopmentStatus": "Beta",
+    "Description": "Fixed a bug introduced in the previous version where javascript errors weren't being identified at the correct lines numbers.\n\nAlso recommending this as a release since it seems pretty useful right now - I'm already dog-fooding it myself and, in fact, used it to develop the javascript .Dump() code I needed to integrate into it!!",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-11-11T14:50:51.093-08:00",
+    "Files": [
+      {
+        "Id": "dc8fa2c2-97fe-410f-a741-806f373d5999",
+        "FileName": "jQueryBuddy.application",
+        "Url": "./3/dc8fa2c2-97fe-410f-a741-806f373d5999",
+        "Type": "Application",
+        "UploadDate": "2010-11-11T14:50:51.22-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "jQueryBuddy_Alpha6",
+    "DevelopmentStatus": "Alpha",
+    "Description": "I've fixed up the intellisense now so there's now an object model inbetween the xml docs and the intellisense itself. This has meant I've now been able to include the method signatures and methods/properties are displayed when '.' is pressed and the selectors appear when \" is pressed. I've changed the instant help window from a FlowDocument to a WebBrowser so the docs display better and examples are also displayed (although there's a little more work required on those and I'm think of changing it so the examples are actually loaded as snippets to run (F5) rather than just display.a",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-11-10T00:45:08.707-08:00",
+    "Files": [
+      {
+        "Id": "4b2166cb-3d1e-4716-9edb-09efdeae5c24",
+        "FileName": "jQueryBuddy.application",
+        "Url": "./4/4b2166cb-3d1e-4716-9edb-09efdeae5c24",
+        "Type": "Application",
+        "UploadDate": "2010-11-10T00:44:41.467-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "jQueryBuddy_Alpha5",
+    "DevelopmentStatus": "Alpha",
+    "Description": "Refactored the code completion for jQuery and fixed bug that meant the instant help at the bottom of the screen wasn't being displayed",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-11-08T14:43:12.76-08:00",
+    "Files": [
+      {
+        "Id": "bc892006-df0a-479b-a5b0-71cf8b103bd2",
+        "FileName": "jQueryBuddy.application",
+        "Url": "./5/bc892006-df0a-479b-a5b0-71cf8b103bd2",
+        "Type": "Application",
+        "UploadDate": "2010-11-08T14:43:12.867-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "jQueryBuddy_Alpha2",
+    "DevelopmentStatus": "Alpha",
+    "Description": "This version improves the jQuery intellisense so the method/properties names are now readable in the list and not merged with the category list. The description box takes a step toward showing the full method format and description with text colouring.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-11-04T15:38:09.507-07:00",
+    "Files": [
+      {
+        "Id": "2134aa2c-bfed-4026-bdfc-55c335287abf",
+        "FileName": "jQueryBuddy.application",
+        "Url": "./6/2134aa2c-bfed-4026-bdfc-55c335287abf",
+        "Type": "Application",
+        "UploadDate": "2010-11-04T15:38:09.82-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "jQueryBuddy_Alpha1",
+    "DevelopmentStatus": "Alpha",
+    "Description": "This is the first release of jQueryBuddy with very little attention made to 'polishing'!! It has rudimentary intellisense and instant help for jQuery.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-11-01T12:38:26.107-07:00",
+    "Files": [
+      {
+        "Id": "af7c460d-95a5-4f3d-ac0a-4e99ad060e67",
+        "FileName": "jQueryBuddy.application",
+        "Url": "./7/af7c460d-95a5-4f3d-ac0a-4e99ad060e67",
+        "Type": "Application",
+        "UploadDate": "2010-11-01T12:38:26.203-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "8",
+    "Name": "jQueryBuddy_Alpha7",
+    "DevelopmentStatus": "Planning",
+    "Description": "This version has added the .Dump() method to the javascript Object to provide a convenient way to display the state of objects in the results window.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-11-11T14:28:33.183-08:00",
+    "Files": [
+      {
+        "Id": "5e4383de-e79f-4e52-bcd5-c03a82e9de3e",
+        "FileName": "jQueryBuddy.application",
+        "Url": "./8/5e4383de-e79f-4e52-bcd5-c03a82e9de3e",
+        "Type": "Application",
+        "UploadDate": "2010-11-11T14:28:33.323-08:00"
+      }
+    ]
+  }
+]

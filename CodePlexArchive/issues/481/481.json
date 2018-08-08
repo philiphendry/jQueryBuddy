@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Currently version 1.4.2 of jQuery is hard-coded into the app. Different version need to be accessible. Also the version is currently referenced on an external site - it would be better to have it as a local reference or cached to allow the app to work independently of an internet connection.",
+    "LastUpdatedDate": "2013-02-13T11:38:29.45-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "jQueryBuddy",
+    "ReportedDate": "2010-11-28T14:03:32.563-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Allow different versions of jQuery to be referenced",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 481
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

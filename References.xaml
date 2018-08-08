@@ -1,0 +1,19 @@
+﻿<Window x:Class="jQueryBuddy.References"
+        Title="References" Height="300" Width="300"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:Rendering="clr-namespace:jQueryBuddy.Rendering" 
+        xmlns:toolkit="http://schemas.microsoft.com/wpf/2008/toolkit">
+    <Window.Resources>
+        <CollectionViewSource x:Key="referencesView" />
+    </Window.Resources>
+    <StackPanel>
+        <toolkit:DataGrid x:Name="referencesGrid" CanUserAddRows="True" CanUserDeleteRows="True">
+         <toolkit:DataGrid.ItemTemplate>
+            <DataTemplate DataType="{x:Type Rendering:Reference}">
+               <TextBox Text="{Binding Path=Url, Mode=TwoWay}"></TextBox>
+            </DataTemplate>
+         </toolkit:DataGrid.ItemTemplate>
+      </toolkit:DataGrid>
+    </StackPanel>
+</Window>

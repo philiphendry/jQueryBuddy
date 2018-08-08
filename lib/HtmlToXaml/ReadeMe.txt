@@ -1,0 +1,5 @@
+﻿The credit for this code goes to the WPF SDK team who published this as a XAML FlowDocument to HTML Conversion Prototype :
+
+http://blogs.msdn.com/b/wpfsdk/archive/2006/05/25/606317.aspx
+
+Many thanks to those guys/gals... didn't fancy writing my own tokenizer and AST!!

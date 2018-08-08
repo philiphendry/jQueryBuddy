@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Alerts boxes appearing whilst navigating jQuery intellisense - the alerts are embedded in the Examples. The solution will be to defer displaying the examples until the tab is selected.",
+    "LastUpdatedDate": "2013-02-13T11:38:28.233-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "jQueryBuddy",
+    "ReportedDate": "2011-10-28T07:52:29.75-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Iterating through jQuery intellisense causes Examples to load and execute any embedded alerts",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1181
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

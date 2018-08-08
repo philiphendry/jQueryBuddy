@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 282,
+    "Title": "Format + Colour jQuery Intellisense"
+  },
+  {
+    "Id": 474,
+    "Title": "Tabbed Snippets"
+  },
+  {
+    "Id": 475,
+    "Title": "Intellisense for HTML Elements"
+  },
+  {
+    "Id": 476,
+    "Title": "A CSS editing as a tab alongside the HTML"
+  },
+  {
+    "Id": 477,
+    "Title": "Snippet Browser"
+  },
+  {
+    "Id": 478,
+    "Title": "Shortcuts to hide/show panels"
+  },
+  {
+    "Id": 479,
+    "Title": "Expand/Collapse Dump() results"
+  },
+  {
+    "Id": 480,
+    "Title": ".Dump() seems to interfere with other page CSS"
+  },
+  {
+    "Id": 481,
+    "Title": "Allow different versions of jQuery to be referenced"
+  },
+  {
+    "Id": 482,
+    "Title": "Remember window layout"
+  },
+  {
+    "Id": 565,
+    "Title": "Implement File->New menu option"
+  },
+  {
+    "Id": 566,
+    "Title": "Prompt to save unsaved documents"
+  },
+  {
+    "Id": 606,
+    "Title": "Intellisense text is not wrapping when it outgrows the intellisense popup window."
+  },
+  {
+    "Id": 793,
+    "Title": "Include additional scripts"
+  },
+  {
+    "Id": 1181,
+    "Title": "Iterating through jQuery intellisense causes Examples to load and execute any embedded alerts"
+  }
+]

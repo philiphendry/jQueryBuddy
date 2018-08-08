@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "This has now been implemented.",
+    "ClosedDate": "2010-11-28T13:47:48.707-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The intellisense popup for jQuery needs to be formatted with method/property/event names on the left and its categories on the right. Also need to add icons for each type of name on the far left.",
+    "LastUpdatedDate": "2013-05-15T17:14:48.73-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "jQueryBuddy",
+    "ReportedDate": "2010-11-02T14:45:52.137-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Format + Colour jQuery Intellisense",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 282
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

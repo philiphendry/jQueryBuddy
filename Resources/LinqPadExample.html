@@ -1,0 +1,504 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="Generator" content="LINQ to XML, baby!" />
+  <style type='text/css'>
+body
+{
+	margin: 0.3em 0.3em 0.4em 0.5em;
+	font-family: Verdana;
+	font-size: 80%;
+	background: white;
+}
+
+p, pre
+{
+	margin:0;
+	padding:0;
+	font-family: Verdana;
+}
+
+table
+{
+	border-collapse: collapse;
+	border: 2px solid #17b;
+	border-top: 1px;
+	margin: 0.3em 0.2em;
+}
+
+table.limit
+{
+	border-collapse: collapse;
+	border-bottom: 2px solid #c31;
+}
+
+td, th
+{
+	vertical-align: top;
+	border: 1px solid #aaa;
+	padding: 0.1em 0.2em;
+	margin: 0;
+}
+
+th
+{
+	text-align: left;
+	background-color: #ddd;
+	border: 1px solid #777;
+	font-family: tahoma;
+	font-size:90%;
+	font-weight: bold;
+}
+
+th.member
+{
+	padding: 0.1em 0.2em 0.1em 0.2em;
+}
+
+td.typeheader
+{
+	font-family: tahoma;
+	font-size: 90%;
+	font-weight: bold;
+	background-color: #17b;
+	color: white;
+	padding: 0 0.2em 0.1em 0.1em;
+}
+
+td.n { text-align: right }
+
+a:link.typeheader, a:visited.typeheader
+{
+	font-family: tahoma;
+	font-size: 90%;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #17b;
+	color: white;
+}
+
+span.typeglyph
+{
+	font-family: webdings;
+	padding: 0 0.2em 0 0;
+	margin: 0;
+}
+
+table.group
+{
+	border: none;
+	margin: 0;
+}
+
+td.group
+{
+	border: none;
+	padding: 0 0.1em;
+}
+
+div.spacer
+{
+	margin: 0.6em 0;
+}
+
+table.headingpresenter
+{
+	border: none;
+	border-left: 3px dotted #1a5;
+	margin: 1em 0em 1.2em 0.15em;
+}
+
+th.headingpresenter
+{
+	font-family: Arial;
+	border: none;
+	padding: 0 0 0.2em 0.5em;
+	background-color: white;
+	color: green;
+	font-size: 110%;        
+}
+
+td.headingpresenter
+{
+	border: none;
+	padding: 0 0 0 0.6em;
+}
+
+td.summary
+{ 
+	background-color: #def;
+	color: #024;
+	font-family: Tahoma;
+	padding: 0 0.1em 0.1em 0.1em;
+}
+
+td.columntotal
+{
+	font-family: Tahoma;
+	background-color: #eee;
+	font-weight: bold;
+	color: #17b;
+	font-size:90%;
+	text-align:right;
+}
+
+span.graphbar
+{
+	background: #17b;
+	color: #17b;
+	margin-left: -2px;
+	margin-right: -2px;
+}
+
+a:link.graphcolumn, a:visited.graphcolumn
+{
+	color: #17b;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 110%;
+	letter-spacing: -0.4em;	
+	margin-left: 0.3em;
+}
+
+i { color: green; }
+
+em { color: red; }
+
+span.highlight { background: #ff8; }
+  </style>
+
+  <script language='JavaScript' type='text/javascript'>
+
+      function toggle(id)
+      {
+        table = document.getElementById(id);
+        if (table == null) return false;
+        updown = document.getElementById(id + 'ud');
+        if (updown == null) return false;
+        expand = updown.innerText == '6';
+        updown.innerText = expand ? '5' : '6';
+        table.style.borderBottom = expand ? '2px solid' : 'dashed 2px';
+        elements = table.rows;
+        if (elements.length == 0 || elements.length == 1) return false;
+        for (i = 1; i != elements.length; i++)
+          if (elements[i].id.substring(0,3) != 'sum')
+            elements[i].style.display = expand ? 'block' : 'none';
+        return false;
+      }
+    
+  </script>
+</head>
+<body>
+<div>
+  <p>123</p>
+</div>
+<div>
+  <div class="spacer">
+    <table id="t1">
+      <tr>
+        <td class="typeheader" colspan="2">
+          <a href="" class="typeheader" onclick="return toggle('t1');">
+            <span class="typeglyph" id="t1ud">5</span>Match</a>
+        </td>
+      </tr>
+      <tr id="sum2">
+        <td colspan="2" class="summary">color</td>
+      </tr>
+      <tr>
+        <th class="member" title="System.Text.RegularExpressions.GroupCollection">Groups</th>
+        <td>
+          <table id="t3">
+            <tr>
+              <td class="typeheader" colspan="1">
+                <a href="" class="typeheader" onclick="return toggle('t3');">
+                  <span class="typeglyph" id="t3ud">5</span>GroupCollection (1 item)</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table id="t4" class="limit" title="Cyclic reference">
+                  <tr>
+                    <td class="typeheader" colspan="2">
+                      <span class="typeglyph">q</span>Match</td>
+                  </tr>
+                  <tr id="sum5">
+                    <td colspan="2" class="summary">color</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <th class="member" title="System.Boolean">Success</th>
+        <td>
+          <p>True</p>
+        </td>
+      </tr>
+      <tr>
+        <th class="member" title="System.Text.RegularExpressions.CaptureCollection">Captures</th>
+        <td>
+          <table id="t6">
+            <tr>
+              <td class="typeheader" colspan="1">
+                <a href="" class="typeheader" onclick="return toggle('t6');">
+                  <span class="typeglyph" id="t6ud">5</span>CaptureCollection (1 item)</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table id="t7" class="limit" title="Cyclic reference">
+                  <tr>
+                    <td class="typeheader" colspan="2">
+                      <span class="typeglyph">q</span>Match</td>
+                  </tr>
+                  <tr id="sum8">
+                    <td colspan="2" class="summary">color</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <th class="member" title="System.Int32">Index</th>
+        <td>
+          <p>12</p>
+        </td>
+      </tr>
+      <tr>
+        <th class="member" title="System.Int32">Length</th>
+        <td>
+          <p>5</p>
+        </td>
+      </tr>
+      <tr>
+        <th class="member" title="System.String">Value</th>
+        <td>
+          <p>color</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div>
+  <table class="headingpresenter">
+    <tr>
+      <th class="headingpresenter">
+        <p>Bet you never knew this type existed!</p>
+      </th>
+    </tr>
+    <tr>
+      <td class="headingpresenter">
+        <table id="t9">
+          <tr>
+            <td class="typeheader" colspan="2">
+              <a href="" class="typeheader" onclick="return toggle('t9');">
+                <span class="typeglyph" id="t9ud">5</span>TimeZoneInfo</a>
+            </td>
+          </tr>
+          <tr id="sum10">
+            <td colspan="2" class="summary">(UTC) Dublin, Edinburgh, Lisbon, London</td>
+          </tr>
+          <tr>
+            <th class="member" title="System.String">Id</th>
+            <td>
+              <p>GMT Standard Time</p>
+            </td>
+          </tr>
+          <tr>
+            <th class="member" title="System.String">DisplayName</th>
+            <td>
+              <p>(UTC) Dublin, Edinburgh, Lisbon, London</p>
+            </td>
+          </tr>
+          <tr>
+            <th class="member" title="System.String">StandardName</th>
+            <td>
+              <p>GMT Standard Time</p>
+            </td>
+          </tr>
+          <tr>
+            <th class="member" title="System.String">DaylightName</th>
+            <td>
+              <p>GMT Daylight Time</p>
+            </td>
+          </tr>
+          <tr>
+            <th class="member" title="System.TimeSpan">BaseUtcOffset</th>
+            <td>
+              <p>00:00:00</p>
+            </td>
+          </tr>
+          <tr>
+            <th class="member" title="System.Boolean">SupportsDaylightSavingTime</th>
+            <td>
+              <p>True</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div>
+  <table class="headingpresenter">
+    <tr>
+      <th class="headingpresenter">
+        <p>Prime numbers</p>
+      </th>
+    </tr>
+    <tr>
+      <td class="headingpresenter">
+        <table id="t11">
+          <tr>
+            <td class="typeheader" colspan="1">
+              <a href="" class="typeheader" onclick="return toggle('t11');">
+                <span class="typeglyph" id="t11ud">5</span>Int32
+[] (5 items)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>11</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>5</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>17</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>7</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>13</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div>
+  <table class="headingpresenter">
+    <tr>
+      <th class="headingpresenter">
+        <p>Prime numbers &gt; 10</p>
+      </th>
+    </tr>
+    <tr>
+      <td class="headingpresenter">
+        <table id="t12">
+          <tr>
+            <td class="typeheader" colspan="1">
+              <a href="" class="typeheader" onclick="return toggle('t12');">
+                <span class="typeglyph" id="t12ud">5</span>IEnumerable&lt;Int32&gt; (3 items)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>11</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>17</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>13</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div>
+  <table class="headingpresenter">
+    <tr>
+      <th class="headingpresenter">
+        <p>Prime numbers &gt; 10 sorted</p>
+      </th>
+    </tr>
+    <tr>
+      <td class="headingpresenter">
+        <table id="t13">
+          <tr>
+            <td class="typeheader" colspan="1">
+              <a href="" class="typeheader" onclick="return toggle('t13');">
+                <span class="typeglyph" id="t13ud">5</span>IOrderedEnumerable&lt;Int32&gt; (3 items)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>11</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>13</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>17</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div>
+  <table class="headingpresenter">
+    <tr>
+      <th class="headingpresenter">
+        <p>Prime numbers &gt; 10 sorted, times 10!</p>
+      </th>
+    </tr>
+    <tr>
+      <td class="headingpresenter">
+        <table id="t14">
+          <tr>
+            <td class="typeheader" colspan="1">
+              <a href="" class="typeheader" onclick="return toggle('t14');">
+                <span class="typeglyph" id="t14ud">5</span>IEnumerable&lt;Int32&gt; (3 items)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>110</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>130</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>170</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

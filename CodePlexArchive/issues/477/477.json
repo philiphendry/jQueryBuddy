@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Add a hierarchical list of snippets that can be loaded into jQueryBuddy. The snippets will actually be saved in the users documents folder under 'My jQueryBuddy Snippets' and therefore just be a view on that.",
+    "LastUpdatedDate": "2013-02-13T11:38:30.22-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "jQueryBuddy",
+    "ReportedDate": "2010-11-28T13:56:07.503-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Snippet Browser",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 477
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

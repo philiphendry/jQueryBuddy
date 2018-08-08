@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2010-12-20T13:00:47.63-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Whenever open documents exist which have unsaved changes, the user must be presented with the option to cancel the application close.",
+    "LastUpdatedDate": "2013-05-15T17:14:46.033-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "jQueryBuddy",
+    "ReportedDate": "2010-12-16T12:27:37.38-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Prompt to save unsaved documents",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 566
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

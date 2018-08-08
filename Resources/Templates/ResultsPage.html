@@ -1,0 +1,32 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link type='text/css' href="http://localhost:8085/InstantHelpStyles.css" />
+    <script type='text/javascript'>
+        //<![CDATA[
+        window.onerror = function(message, url, linenumber) {
+            $('#divErrorMessage').text(message);
+            $('#divErrorLineNumber').text(linenumber);
+            return true;
+        };
+        //]]>
+    </script>
+    {{References}}
+    <script type="text/javascript" src="http://localhost:8085/JavascriptDump.js"></script>
+</head>
+<body>
+    {{Html}}
+
+    <script type='text/javascript'>
+        //<![CDATA[
+        {{Javascript}}
+        //]]>
+    </script>
+
+    <div id='divErrorMessage' style='display:none'>none</div>
+    <div id='divErrorLineNumber' style='display:none'>none</div>
+    <div id="dumpOutput" />
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I tried to include an additional script in the html pane\n<script src=\"jquery.ezpz_tooltip.js\"></script>\n \nHowever, my reference in the JQuery pane was not recognised:\n $(\"#MyLink\").ezpz_tooltip({",
+    "LastUpdatedDate": "2013-02-13T11:38:28.67-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "jQueryBuddy",
+    "ReportedDate": "2011-03-22T04:38:52.113-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Include additional scripts",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 793
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Have you tried specifying the resource with a fully qualified path? The html pages will be running in the context of a Web Development Server hosted in the AppData path of jQueryBuddy and will be looking for it locally on disk in the Virtual Directory it's set up. You could either specify a full path name (might need prefix file:/// ?) or you could also use a CDN server if the file is hosted there - both Google and Microsoft offer those.",
+      "PostedDate": "2011-09-07T01:09:19.677-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-13T11:38:28.67-08:00",
+      "Id": -2147483648
+    }
+  ]
+}
